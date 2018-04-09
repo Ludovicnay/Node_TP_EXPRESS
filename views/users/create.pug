@@ -1,0 +1,9 @@
+html
+    body
+        h1 #{title}
+        form(action='/users/', method='post')
+            p
+                | mail :
+                input(type='text', name='name', value='')
+            input(type='submit', value='Ajouter')
+

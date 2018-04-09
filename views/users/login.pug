@@ -1,0 +1,9 @@
+html
+    body
+        h1 #{title}
+        form(action='/login', method='post')
+            p
+                | mail :
+                input(type='text', name='mail', value='')
+            input(type='submit', value='Login')
+
